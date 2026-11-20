@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .arc { fill: none; stroke: #C69A43; stroke-width: 3; stroke-linecap: round; }
+    .fill-sun { fill: #F7EFDF; }
+    .line { stroke: #17324D; stroke-width: 3; stroke-linecap: round; }
+    @media (prefers-color-scheme: dark) {
+      .line { stroke: #F2F5F7; }
+      .arc { stroke: #E5B85C; }
+      .fill-sun { fill: #2C3E50; }
+    }
+  </style>
+  <path d="M 11 21 A 5 5 0 0 1 21 21 Z" class="fill-sun" />
+  <path d="M 7 21 A 9 9 0 0 1 25 21" class="arc" />
+  <line x1="4" y1="23" x2="28" y2="23" class="line" />
+</svg>

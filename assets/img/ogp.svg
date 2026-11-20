@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="AKECHI-SUN Social Card">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17324D" />
+      <stop offset="100%" stop-color="#0E2133" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5B85C" />
+      <stop offset="100%" stop-color="#C69A43" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Subtle Geometric Frame & Grid lines -->
+  <rect x="36" y="36" width="1128" height="558" fill="none" stroke="#254769" stroke-width="2" rx="16" />
+  <line x1="36" y1="500" x2="1164" y2="500" stroke="#254769" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.6"/>
+
+  <!-- Decorative Sun Radiance Arc (Right Side) -->
+  <circle cx="980" cy="315" r="260" fill="none" stroke="#C69A43" stroke-width="2" opacity="0.25" />
+  <circle cx="980" cy="315" r="200" fill="none" stroke="#C69A43" stroke-width="2" opacity="0.35" />
+  <circle cx="980" cy="315" r="140" fill="none" stroke="#C69A43" stroke-width="2.5" opacity="0.5" />
+  <path d="M 880 315 A 100 100 0 0 1 1080 315 Z" fill="#F7EFDF" opacity="0.15" />
+  <path d="M 860 315 A 120 120 0 0 1 1100 315" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+  <line x1="820" y1="325" x2="1140" y2="325" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9" />
+
+  <!-- Left Content Area -->
+  <!-- Logo Mark -->
+  <g transform="translate(100, 100)">
+    <path d="M 16 46 A 22 22 0 0 1 60 46" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" />
+    <path d="M 24 46 A 14 14 0 0 1 52 46 Z" fill="#F7EFDF" opacity="0.8" />
+    <line x1="8" y1="50" x2="68" y2="50" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+  </g>
+
+  <!-- Brand Title -->
+  <text x="185" y="142" font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', Georgia, serif" font-size="44" font-weight="700" fill="#FFFFFF" letter-spacing="4">AKECHI-SUN</text>
+
+  <!-- Slogan (Bilingual JA + EN) -->
+  <text x="100" y="240" font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', Georgia, serif" font-size="56" font-weight="700" fill="url(#goldGrad)">明日への叡智を。</text>
+  <text x="100" y="300" font-family="'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF" opacity="0.95" letter-spacing="1">Wisdom for a Brighter Future.</text>
+
+  <!-- Main Offering -->
+  <text x="100" y="380" font-family="'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif" font-size="28" font-weight="500" fill="#D8E0E5">JLPT N2・N1 対策と日本語オンライン個別指導</text>
+  <text x="100" y="420" font-family="'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif" font-size="22" font-weight="400" fill="#9FB5C8">One-to-One Online Japanese Lessons · Google Meet / Zoom</text>
+
+  <!-- Badges / Pillars on bottom row -->
+  <!-- Badge 1 -->
+  <g transform="translate(100, 524)">
+    <rect width="210" height="42" rx="21" fill="#F7EFDF" />
+    <text x="105" y="27" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#17324D" text-anchor="middle">JLPT N2・N1 総合対策</text>
+  </g>
+
+  <!-- Badge 2 -->
+  <g transform="translate(330, 524)">
+    <rect width="200" height="42" rx="21" fill="#F7EFDF" />
+    <text x="100" y="27" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#17324D" text-anchor="middle">弱点分析・個別教材</text>
+  </g>
+
+  <!-- Badge 3 -->
+  <g transform="translate(550, 524)">
+    <rect width="220" height="42" rx="21" fill="#F7EFDF" />
+    <text x="110" y="27" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#17324D" text-anchor="middle">やさしい日本語の社会情報</text>
+  </g>
+
+  <!-- Free Trial Callout -->
+  <g transform="translate(860, 520)">
+    <rect width="240" height="46" rx="8" fill="url(#goldGrad)" />
+    <text x="120" y="29" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#17324D" text-anchor="middle">初回30分 無料体験</text>
+  </g>
+</svg>

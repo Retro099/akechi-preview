@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AKECHI-SUN | 言語を選択 / Select Language</title>
+<meta name="description" content="AKECHI-SUN 日本語オンラインレッスン・JLPT対策。言語を選択してください。Select language for online Japanese lessons and JLPT preparation.">
+<!-- PREVIEW-ONLY: remove at launch -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://retro099.github.io/akechi-site/">
+<link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-site/ja/">
+<link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-site/en/">
+<link rel="alternate" hreflang="x-default" href="https://retro099.github.io/akechi-site/">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#17324D">
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AKECHI-SUN">
+<meta property="og:url" content="https://retro099.github.io/akechi-site/">
+<meta property="og:title" content="AKECHI-SUN | 言語を選択 / Select Language">
+<meta property="og:description" content="AKECHI-SUN 日本語オンラインレッスン・JLPT対策。言語を選択してください。Select language for online Japanese lessons and JLPT preparation.">
+<meta property="og:image" content="https://retro099.github.io/akechi-site/assets/img/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://retro099.github.io/akechi-site/">
+<meta name="twitter:title" content="AKECHI-SUN | 言語を選択 / Select Language">
+<meta name="twitter:description" content="AKECHI-SUN 日本語オンラインレッスン・JLPT対策。言語を選択してください。Select language for online Japanese lessons and JLPT preparation.">
+<meta name="twitter:image" content="https://retro099.github.io/akechi-site/assets/img/ogp.png">
+</head>
+<body class="chooser">
+<a href="#main" class="skip-link">本文へスキップ / Skip to content</a>
+<main id="main" class="chooser-box">
+  <svg class="chooser-logo" viewBox="0 0 48 48" aria-hidden="true">
+    <path d="M 11 31 A 13 13 0 0 1 37 31" fill="none" stroke="#C69A43" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 16 31 A 8 8 0 0 1 32 31 Z" fill="#F7EFDF"/>
+    <line x1="6" y1="33" x2="42" y2="33" stroke="#17324D" stroke-width="3.5" stroke-linecap="round"/>
+  </svg>
+  <h1 class="brand">AKECHI-SUN</h1>
+  <p class="slogan"><span lang="ja">明日への叡智を。</span><br><span lang="en">Wisdom for a Brighter Future</span></p>
+  <p id="ja-prompt" class="lang-hint" lang="ja" style="display: none;">日本語で表示しますか？</p>
+  <div class="lang-buttons">
+    <a id="btn-ja" class="btn" href="ja/index.html" lang="ja" hreflang="ja">日本語</a>
+    <a id="btn-en" class="btn btn-outline" href="en/index.html" lang="en" hreflang="en">English</a>
+  </div>
+</main>
+<script>
+  (function() {
+    var lang = (navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || '';
+    lang = lang.toLowerCase();
+    var isJa = (lang.indexOf('ja') === 0) || (window.location.search.indexOf('lang=ja') !== -1);
+    if (isJa) {
+      var prompt = document.getElementById('ja-prompt');
+      var btnJa = document.getElementById('btn-ja');
+      if (prompt) {
+        prompt.textContent = '日本語で表示しますか？';
+        prompt.style.display = 'block';
+      }
+      if (btnJa) {
+        btnJa.classList.add('btn-highlight');
+      }
+    }
+  })();
+</script>
+</body>
+</html>
