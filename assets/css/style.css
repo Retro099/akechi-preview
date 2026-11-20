@@ -681,6 +681,7 @@ details p {
   place-items: center;
   padding: 24px;
   background: var(--bg);
+  box-sizing: border-box;
 }
 
 .chooser-box {
@@ -693,6 +694,7 @@ details p {
   border-top: 4px solid var(--gold);
   border-radius: var(--radius);
   box-shadow: 0 4px 24px rgba(23, 50, 77, 0.06);
+  box-sizing: border-box;
 }
 
 .chooser-logo {
@@ -875,5 +877,47 @@ details p {
     padding: 6px 10px;
     font-size: 0.85rem;
     min-height: 40px;
+  }
+}
+
+/* Chooser Mobile Responsive Styles (T011 320px Overflow Containment) */
+@media (max-width: 480px) {
+  .chooser {
+    padding: 16px 12px;
+  }
+  .chooser-box {
+    padding: 30px 16px;
+    max-width: 100%;
+  }
+  .chooser .brand {
+    font-size: 1.8rem;
+    letter-spacing: .08em;
+  }
+}
+
+@media (max-width: 340px) {
+  .chooser {
+    padding: 12px 6px;
+  }
+  .chooser-box {
+    padding: 24px 8px;
+    max-width: 100%;
+  }
+  .chooser .brand {
+    font-size: 1.40rem;
+    letter-spacing: .04em;
+  }
+  .chooser-logo {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 8px;
+  }
+  .lang-buttons {
+    gap: 8px;
+    margin-top: 18px;
+  }
+  .lang-buttons .btn {
+    padding: 8px 14px;
+    font-size: 0.9rem;
   }
 }
