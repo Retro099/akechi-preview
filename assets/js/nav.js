@@ -29,7 +29,7 @@
     setOpen(!expanded);
   });
 
-  window.matchMedia('(min-width: 881px)').addEventListener('change', function (e) {
+  window.matchMedia('(min-width: 960px)').addEventListener('change', function (e) {
     if (e.matches && nav.classList.contains('is-open')) {
       setOpen(false);
     }

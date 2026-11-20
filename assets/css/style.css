@@ -174,6 +174,13 @@ img, svg {
   gap: 10px;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
 .lang-switch {
   font-size: 0.88rem;
   font-weight: 700;
@@ -186,6 +193,8 @@ img, svg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: border-color 0.15s, background-color 0.15s;
 }
 .lang-switch:hover {
@@ -208,7 +217,12 @@ img, svg {
   color: var(--navy);
   font-weight: 700;
   cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: border-color 0.15s, background-color 0.15s;
+}
+.menu-toggle span, .menu-toggle .menu-text {
+  white-space: nowrap;
 }
 .menu-toggle:hover {
   background: var(--bg-soft);
@@ -222,7 +236,7 @@ nav ul {
 }
 
 /* Desktop Header (> 880px — Calibrated so all 8 Japanese nav items fit on 1 row at >=1024px) */
-@media (min-width: 881px) {
+@media (min-width: 960px) {
   .site-header .wrap {
     display: flex;
     align-items: center;
@@ -274,7 +288,7 @@ nav ul {
 }
 
 /* Mobile Header (<= 880px) */
-@media (max-width: 880px) {
+@media (max-width: 959px) {
   .site-header .wrap {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -828,5 +842,38 @@ details p {
   }
   th, td {
     border-bottom: 1px solid #CCCCCC;
+  }
+}
+
+@media (max-width: 375px) {
+  .site-header .wrap {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header-top {
+    gap: 6px;
+  }
+  .header-right {
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .logo {
+    font-size: 1.05rem;
+    gap: 6px;
+  }
+  .logo-mark {
+    width: 24px;
+    height: 24px;
+  }
+  .menu-toggle {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    min-height: 40px;
+    min-width: 40px;
+  }
+  .lang-switch {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    min-height: 40px;
   }
 }
