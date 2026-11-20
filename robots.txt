@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://retro099.github.io/akechi-site/sitemap.xml
+Disallow: /
