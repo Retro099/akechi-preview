@@ -4,7 +4,7 @@
   <!-- Root Language Chooser -->
   <url>
     <loc>https://retro099.github.io/akechi-preview/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://retro099.github.io/akechi-preview/"/>
@@ -15,7 +15,7 @@
   <!-- Japanese Pages -->
   <url>
     <loc>https://retro099.github.io/akechi-preview/ja/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://retro099.github.io/akechi-preview/"/>
@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/ja/about.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/about.html"/>
     <changefreq>monthly</changefreq>
@@ -32,15 +32,31 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/ja/lessons.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/lessons.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/lessons.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://retro099.github.io/akechi-preview/ja/materials.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/materials.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/materials.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://retro099.github.io/akechi-preview/ja/support.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/support.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://retro099.github.io/akechi-preview/ja/prices.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/prices.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/prices.html"/>
     <changefreq>monthly</changefreq>
@@ -48,7 +64,7 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/ja/trial.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/trial.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/trial.html"/>
     <changefreq>monthly</changefreq>
@@ -56,15 +72,31 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/ja/policy.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/policy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/policy.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://retro099.github.io/akechi-preview/ja/terms-materials.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/terms-materials.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/terms-materials.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://retro099.github.io/akechi-preview/ja/tokushoho.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/tokushoho.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/tokushoho.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://retro099.github.io/akechi-preview/ja/faq.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/faq.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/faq.html"/>
     <changefreq>monthly</changefreq>
@@ -72,7 +104,7 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/ja/contact.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/contact.html"/>
     <changefreq>monthly</changefreq>
@@ -82,7 +114,7 @@
   <!-- English Pages -->
   <url>
     <loc>https://retro099.github.io/akechi-preview/en/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://retro099.github.io/akechi-preview/"/>
@@ -91,7 +123,7 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/en/about.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/about.html"/>
     <changefreq>monthly</changefreq>
@@ -99,15 +131,31 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/en/lessons.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/lessons.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/lessons.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://retro099.github.io/akechi-preview/en/materials.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/materials.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/materials.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://retro099.github.io/akechi-preview/en/support.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/support.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://retro099.github.io/akechi-preview/en/prices.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/prices.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/prices.html"/>
     <changefreq>monthly</changefreq>
@@ -115,7 +163,7 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/en/trial.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/trial.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/trial.html"/>
     <changefreq>monthly</changefreq>
@@ -123,15 +171,31 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/en/policy.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/policy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/policy.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://retro099.github.io/akechi-preview/en/terms-materials.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/terms-materials.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/terms-materials.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://retro099.github.io/akechi-preview/en/tokushoho.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/tokushoho.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/tokushoho.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://retro099.github.io/akechi-preview/en/faq.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/faq.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/faq.html"/>
     <changefreq>monthly</changefreq>
@@ -139,7 +203,7 @@
   </url>
   <url>
     <loc>https://retro099.github.io/akechi-preview/en/contact.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://retro099.github.io/akechi-preview/ja/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://retro099.github.io/akechi-preview/en/contact.html"/>
     <changefreq>monthly</changefreq>
